@@ -5,9 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "prepare": "echo ready"
+    "prepare": "echo ready",
+    "build": "ncc build index.js -o dist"
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
@@ -15,5 +16,8 @@
   },
   "repository": {
     "url": "https://github.com/wesdevteam/maileraction"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
   }
 }
