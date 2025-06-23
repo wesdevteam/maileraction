@@ -1,5 +1,5 @@
 const core = require("@actions/core");
-const transporter = require("./mail.config");
+const transporter = require("./config");
 
 async function run() {
   try {
