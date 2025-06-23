@@ -1,0 +1,19 @@
+{
+  "name": "@wesdevteam/maileraction",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "echo ready"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "nodemailer": "7.0.2"
+  },
+  "repository": {
+    "url": "https://github.com/wesdevteam/maileraction"
+  }
+}
