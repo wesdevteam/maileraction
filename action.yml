@@ -1,5 +1,6 @@
 name: "Send Email"
 description: "GitHub Action to send email using nodemailer"
+author: "wesdevteam"
 inputs:
   to:
     description: "Recipient email address"
@@ -16,3 +17,6 @@ inputs:
 runs:
   using: "node16"
   main: "dist/index.js"
+branding:  
+  icon: "mail"
+  color: "blue"
